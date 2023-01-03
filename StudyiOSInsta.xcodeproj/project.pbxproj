@@ -16,6 +16,8 @@
 		C6893A382963CFC60034098B /* StudyiOSInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6893A372963CFC60034098B /* StudyiOSInstaTests.swift */; };
 		C6893A422963CFC60034098B /* StudyiOSInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6893A412963CFC60034098B /* StudyiOSInstaUITests.swift */; };
 		C6893A442963CFC60034098B /* StudyiOSInstaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6893A432963CFC60034098B /* StudyiOSInstaUITestsLaunchTests.swift */; };
+		C6893A522963E6B50034098B /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6893A512963E6B50034098B /* StackViewController.swift */; };
+		C6893A542963EFC80034098B /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6893A532963EFC80034098B /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C6893A3D2963CFC60034098B /* StudyiOSInstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyiOSInstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6893A412963CFC60034098B /* StudyiOSInstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyiOSInstaUITests.swift; sourceTree = "<group>"; };
 		C6893A432963CFC60034098B /* StudyiOSInstaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyiOSInstaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6893A512963E6B50034098B /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		C6893A532963EFC80034098B /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		C6893A1F2963CFC40034098B /* StudyiOSInsta */ = {
 			isa = PBXGroup;
 			children = (
+				C6893A502963E69D0034098B /* StudiedStackView */,
 				C6893A202963CFC40034098B /* AppDelegate.swift */,
 				C6893A222963CFC40034098B /* SceneDelegate.swift */,
 				C6893A242963CFC40034098B /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				C6893A432963CFC60034098B /* StudyiOSInstaUITestsLaunchTests.swift */,
 			);
 			path = StudyiOSInstaUITests;
+			sourceTree = "<group>";
+		};
+		C6893A502963E69D0034098B /* StudiedStackView */ = {
+			isa = PBXGroup;
+			children = (
+				C6893A512963E6B50034098B /* StackViewController.swift */,
+				C6893A532963EFC80034098B /* CircleButton.swift */,
+			);
+			path = StudiedStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6893A542963EFC80034098B /* CircleButton.swift in Sources */,
 				C6893A252963CFC40034098B /* ViewController.swift in Sources */,
+				C6893A522963E6B50034098B /* StackViewController.swift in Sources */,
 				C6893A212963CFC40034098B /* AppDelegate.swift in Sources */,
 				C6893A232963CFC40034098B /* SceneDelegate.swift in Sources */,
 			);
